@@ -5,5 +5,4 @@
 </script>
 
 <template>
-    HEADER
 </template>

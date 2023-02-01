@@ -13,15 +13,15 @@
 </script>
 
 <template>
-    <header class="w-100 border border-dark">
+    <header class="w-100">
         <AppHeader/>
     </header>
 
-    <main class="w-100 h-100 border border-dark">
+    <main class="w-100 h-100">
         <AppMain/>
     </main>
 
-    <footer class="w-100 border border-dark">
+    <footer class="w-100">
         <AppFooter/>
     </footer>
 </template>

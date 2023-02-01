@@ -1,14 +1,14 @@
 <script>
-    import Projects from './__projects.vue';
+    import ProjectCard from './__projectCard.vue';
     export default {
         name: "AppMain",
         components: {
-            Projects
+            ProjectCard
         }
+
     }
 </script>
 
 <template>
-    MAIN
-    <Projects/>
+    <ProjectCard/>
 </template>
