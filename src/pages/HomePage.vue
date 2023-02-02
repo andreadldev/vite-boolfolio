@@ -10,5 +10,5 @@
 
 <template> 
     <div>HomePage</div>
-    <Projects/>
+    <!-- <Projects/> -->
 </template>

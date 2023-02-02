@@ -12,3 +12,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.router-link {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+        color: inherit;
+    }
+}
