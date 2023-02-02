@@ -1,9 +1,9 @@
 <script>
     export default {
-        name: "AppMain"
+        name: 'AboutUs'
     }
 </script>
 
 <template>
-    <router-view></router-view>
+    Chi siamo
 </template>

@@ -1,9 +1,9 @@
 <script>
     export default {
-        name: "AppMain"
+        name: 'Contacts'
     }
 </script>
 
 <template>
-    <router-view></router-view>
+    Contatti
 </template>
