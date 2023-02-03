@@ -18,7 +18,7 @@
             <AppHeader/>
         </header>
 
-        <main class="w-100 border p-5">
+        <main class="w-100 border p-5 position-relative">
             <AppMain/>
         </main>
 
