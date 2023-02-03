@@ -26,4 +26,5 @@
         <h3>{{ project.name }}</h3>
         <p>{{ project.description }}</p>
     </div>
+    <a href="javascript:history.back()">Torna indietro</a>
 </template>

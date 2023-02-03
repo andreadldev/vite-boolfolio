@@ -9,6 +9,5 @@
 </script>
 
 <template> 
-    <div>HomePage</div>
     <Projects/>
 </template>
