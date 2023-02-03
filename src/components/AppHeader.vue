@@ -1,10 +1,6 @@
 <script>
     export default {
         name: "AppHeader",
-        menuItem: document.querySelectorAll('#navbarSupportedContent .nav-link'),
-        created() {
-
-        }
     }
 </script>
 

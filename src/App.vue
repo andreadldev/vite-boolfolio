@@ -13,19 +13,24 @@
 </script>
 
 <template>
-    <header class="w-100">
-        <AppHeader/>
-    </header>
+    <div class="d-flex flex-column justify-content-between h-100">
+        <header class="w-100">
+            <AppHeader/>
+        </header>
 
-    <main class="w-100 h-100">
-        <AppMain/>
-    </main>
+        <main class="w-100 border">
+            <AppMain/>
+        </main>
 
-    <footer class="w-100">
-        <AppFooter/>
-    </footer>
+        <footer class="w-100">
+            <AppFooter/>
+        </footer>
+    </div>
 </template>
 
 <style lang="scss">
     @import "./css/style.scss";
+    main {
+        min-height: calc(100vh - 128px);
+    }
 </style>

@@ -17,7 +17,7 @@
 </script>
 
 <template>
-    <div class="d-flex flex-wrap p-5">
+    <div class="h-100 d-flex flex-wrap p-5">
         <div class="card mx-1 mb-5" style="width: 18rem;" v-for="project in this.projects">
             <h4>{{ project.id }}</h4>
             <img v-if="project.image_url" :src="project.image_url" class="card-img-top" alt="...">
