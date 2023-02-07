@@ -47,11 +47,11 @@
                         // console.log(this.projects)
                     });
     
-                    // if (page > 1) {
-                    //     this.$router.push({ path: "/", query: { page: page } });
-                    // } else {
-                    //     this.$router.push('');
-                    // }
+                    if (page > 1) {
+                        this.$router.push({ path: "/", query: { page: page } });
+                    } else {
+                        this.$router.push('');
+                    }
                 }
             }
         }
